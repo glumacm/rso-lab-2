@@ -18,8 +18,8 @@ env:
 
 script:
   - mvn clean package -U
-  - docker build -t "$DOCKER_IMAGE_test" .
+  - docker build -t "$DOCKER_IMAGEt" .
 
 after_success:
-  - echo "$DOCKER_PASSWORD_test" | docker login -u "$DOCKER_USERNAME_test" --password-stdin
-  - docker push "$DOCKER_IMAGE_test"
+  - echo "$DOCKER_PASSWORD_test" | docker login -u "$DOCKER_USERNAME" --password-stdin
+  - docker push "$DOCKER_IMAGE"
