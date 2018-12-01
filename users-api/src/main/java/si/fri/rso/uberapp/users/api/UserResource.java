@@ -1,8 +1,8 @@
 package si.fri.rso.uberapp.users.api;
 
 import javax.enterprise.context.ApplicationScoped;
-import javax.enterprise.context.RequestScoped;
-import javax.inject.Inject;
+//import javax.enterprise.context.RequestScoped;
+//import javax.inject.Inject;
 import javax.json.Json;
 import javax.json.JsonObject;
 import javax.ws.rs.*;
