@@ -16,6 +16,9 @@ spec:
       - image: glumac/rsolab2:0.1
         name: user
         imagePullPolicy: "Always"
+        env:
+          - name: KUMULUZEE_DISCOVERY_CLUSTER
+            value: bluemix
         ports:
         - containerPort: 8081
           name: server
