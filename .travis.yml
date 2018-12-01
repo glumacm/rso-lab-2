@@ -14,7 +14,7 @@ cache:
   - $HOME/.m2
 
 env:
-  - DOCKER_IMAGE_test=glumac/rsolab2:0.1
+  - DOCKER_IMAGE=glumac/rsolab2:0.1
 
 script:
   - mvn clean package -U
