@@ -13,7 +13,7 @@ spec:
         app: user
     spec:
       containers:
-      - image: glumac/testuberapp:0.1
+      - image: glumac/rsolab2:0.1
         name: user
         imagePullPolicy: "Always"
         ports:
