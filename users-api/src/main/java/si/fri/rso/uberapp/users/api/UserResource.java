@@ -11,7 +11,7 @@ import javax.ws.rs.core.Response;
 import java.util.List;
 
 
-@Path("/users")
+@Path("users")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 @ApplicationScoped
@@ -44,7 +44,7 @@ public class UserResource {
     */
 
     @GET
-    @Path("/info")
+    @Path("info")
     public Response info() {
 
         JsonObject json = Json.createObjectBuilder()
